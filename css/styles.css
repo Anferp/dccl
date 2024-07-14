@@ -1,0 +1,112 @@
+:root{
+    --primary:#6B59D0;
+    --titles:#374151;
+    --description: #6B7280;
+
+    --font: "Red Hat Display";
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    display: flex;
+    justify-content: center;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    max-width: 128rem;
+    height: 87rem;
+    font-family: var(--font);
+}
+
+.top__image{
+    width: 100%;
+}
+
+.container{
+    width: 113rem;
+    margin: 0 auto;
+}
+
+.content{
+    margin-left: 2rem;
+}
+
+.content__title{
+    margin-top: 1.2rem;
+}
+
+.content__title span{
+    color: var(--primary);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 30.79px;
+    letter-spacing: 1.20px;
+    word-wrap: break-word;
+}
+
+.title{
+    margin: 0;
+    color: var(--titles);
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 4.8rem;
+    word-wrap: break-word;
+    width: 69.2rem;
+    margin-bottom: 8rem;
+}
+
+.fiels{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 2rem;
+}
+
+.field{
+    width: 20.4rem;
+}
+
+.field__image{
+    max-width: 5.2rem;
+    height: 5.2rem;
+}
+
+.field__title{
+    color: var(--titles);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    word-wrap: break-word;
+    margin: 0;
+    margin-top: 3.2rem;
+    border-left: #6B59D0 solid;  
+    padding-left: 2rem;
+    margin-left: -2rem;
+}
+
+.field__description{
+    color: var(--description);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.9px;
+    word-wrap: break-word;
+    margin: 0;
+    margin-top: 2rem;
+    width: 23.4rem;
+    height: 13.5rem;
+}
+
+.field__description span{
+    color: var(--primary);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    word-wrap: break-word;
+    padding-left: 2rem;
+    margin-left: -2rem;
+}
